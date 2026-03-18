@@ -1,0 +1,34 @@
+# Source code and data are not tracked in this repo
+src/
+scripts/
+tests/
+docs/
+data/*.csv
+data/*.json
+data/*.parquet
+data/*.html
+data/*.txt
+*.csv
+*.json
+*.parquet
+*.py
+*.ini
+*.txt
+*.html
+*.jpeg
+*.md
+!README.md
+
+# Standard ignores
+__pycache__/
+*.pyc
+*.pyo
+.cache/
+venv/
+.env
+*.egg-info/
+.pytest_cache/
+*.so
+.DS_Store
+*.key
+*.pem
