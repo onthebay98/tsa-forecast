@@ -21,9 +21,6 @@ Conditioned backtests (2024-01-01 to 2026-02-22, 112 weeks, 25k simulations):
 | Observed Days | Description | MAE (checkins) | MAPE | Brier Score | Dir. Accuracy |
 |:---:|---|---:|---:|---:|---:|
 | 0 | Unconditional (Mon morning) | 49,088 | 2.04% | 0.0343 | 79.3% |
-| 1 | Mon observed | — | — | — | — |
-| 2 | Mon-Tue observed | — | — | — | — |
-| 3 | Mon-Wed observed | — | — | — | — |
 | 4 | Mon-Thu observed | 25,801 | 1.09% | 0.0186 | 91.0% |
 
 Climatology baseline (same-week-last-year x trailing YoY%): MAE 78,948, Brier 0.0527. Model beats climatology by ~35% across all metrics.
